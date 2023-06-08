@@ -1,0 +1,14 @@
+.time{
+    display: flex;
+    justify-content: center;
+    background-color: #7184f1;
+}
+
+.time table{
+    width: 80%;
+    margin-bottom: 32px;
+}
+
+.head, .body{
+    background: #f2f2f2
+}

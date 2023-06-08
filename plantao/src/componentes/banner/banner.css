@@ -1,0 +1,16 @@
+header{
+    background-image: url('../../../public/imagens/image-header.jpg');
+    background-position: center top;
+    background-size: cover;
+    padding: 100px;
+}
+
+.banner{
+    text-align: center;
+    color: #2375c2;
+}
+
+.title{
+    display: flex;
+    text-align: start;
+}
