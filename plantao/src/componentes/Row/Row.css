@@ -1,0 +1,13 @@
+td{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+td > .deletar{
+    position: absolute;
+    left: -10px;
+}
+
+.deletar:hover{
+    cursor: pointer;
+}

@@ -18,3 +18,8 @@
     box-sizing: border-box;
     border-radius: 15px;
 }
+
+.field-color input{
+    height: 70px;
+    padding: 5px 24px;
+}

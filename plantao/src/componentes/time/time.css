@@ -1,14 +1,35 @@
 .time{
     display: flex;
-    justify-content: center;
-    background-color: #7184f1;
+    background-color: rgb(68, 67, 67);
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 80px;
 }
 
 .time table{
-    width: 80%;
     margin-bottom: 32px;
 }
 
-.head, .body{
-    background: #f2f2f2
+.head{
+    background: #f2f2f2;
+}
+
+.head td{
+    align-self: center;
+    width: 40vw;
+}
+
+.head-title{
+    text-align: center;
+}
+
+.deletar-time{
+    position:absolute;
+    right: 80px;
+}
+
+.deletar-time:hover{
+    cursor: pointer;
 }
